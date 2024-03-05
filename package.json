@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "yarn": "^1.22.21"
+  },
+  "name": "fluminense-theme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flyinng/Fluminense-Theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flyinng/Fluminense-Theme/issues"
+  },
+  "homepage": "https://github.com/Flyinng/Fluminense-Theme#readme",
+  "description": ""
+}
