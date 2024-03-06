@@ -1,24 +1,40 @@
 {
-  "dependencies": {
-    "yarn": "^1.22.21"
-  },
   "name": "fluminense-theme",
-  "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
+  "version": "2.2.0",
+  "displayerName": "Vinicius Reisch",
+  "publisher": "ViniciusReisch",
+  "repository": "https://github.com/Flyinng/Fluminense-Theme.git",
+  "author": "Vinicius <vinereisch522@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "theme",
+    "fluminense",
+    "fluzao"
+  ],
+  "devDependencies": {
+    "vsce": "^2.5.0"
+  },
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": [
+    "Themes"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "package": "vsce package --no-yarn",
+    "publish": "vsce publish --no-yarn"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Flyinng/Fluminense-Theme.git"
+  "vscode_custom_css.imports": ["file:///C:/Fluminense-Theme/css/styles.css"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Fluzão 1.0",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fluminense1.json"
+      }
+    ]
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Flyinng/Fluminense-Theme/issues"
-  },
-  "homepage": "https://github.com/Flyinng/Fluminense-Theme#readme",
-  "description": ""
+  "icon": "assets/icon.png",
+  "description": "O Tema do maior do Rio, deixe o seu vscode com o visual do Colossal das Laranjeiras!"
 }
+

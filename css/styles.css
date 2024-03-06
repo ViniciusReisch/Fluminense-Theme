@@ -1,0 +1,6 @@
+.monaco-workbench .part.titlebar .window-appicon > .home-bar-icon-badge,
+.monaco-workbench .part.titlebar > .window-appicon:not(.codicon) {
+  background-image: url(../assets/icon.png) !important;
+  background-repeat: no-repeat;
+  background-position: 50%;
+} 
