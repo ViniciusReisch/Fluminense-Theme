@@ -1,4 +1,4 @@
-# Tema Fluminense para Visual Studio Code <img src="https://images.emojiterra.com/twitter/v13.1/512px/1f1ed-1f1fa.png" alt="Fluminense Theme" width="32" height="32">
+# Tema Fluminense para VS Code <img src="https://images.emojiterra.com/twitter/v13.1/512px/1f1ed-1f1fa.png" alt="Fluminense Theme" width="32" height="32">
 
 ## Visão Geral
 
